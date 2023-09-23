@@ -13,7 +13,6 @@ public class Notatka {
     @Column(name = "content")
     private String content;
 
-
     //Represents both a date and a time (yyyy-MM-dd-HH-mm-ss-ns)
     @Column(name = "last_updated")
     private LocalDateTime localDateAndTime;

@@ -5,5 +5,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface NotatkaReposotory extends JpaRepository<Notatka, String> {
+public interface NotatkaRepository extends JpaRepository<Notatka, String> {
 }
