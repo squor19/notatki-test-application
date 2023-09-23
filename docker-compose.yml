@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  notatka-api:
+    image: spring-app:v1
+    container_name: notatka-api
+    ports:
+      - "8080:8080"
+
+  database:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: notatka_app_db
+    ports:
+      - "3308:3306"
