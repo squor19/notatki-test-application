@@ -12,3 +12,6 @@
 Req:
   To run this app on your system you should have docker installed
   and Maven to package my app.
+
+
+Tip: postman collection is in the root;
