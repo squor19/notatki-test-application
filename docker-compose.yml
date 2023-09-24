@@ -6,6 +6,7 @@ services:
     container_name: notatka-api
     ports:
       - "8080:8080"
+    restart: always
 
   database:
     image: mysql:latest
